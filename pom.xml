@@ -71,7 +71,7 @@
                     <artifactId>maven-war-plugin</artifactId>
                     <configuration>
                         <failOnMissingWebXml>false</failOnMissingWebXml>
-                        <warName>GetStartedJava</warName>
+                        <warName>WasLibertyDeploy-1</warName>
                     </configuration>
                 </plugin>
                 <plugin>
