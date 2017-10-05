@@ -1,7 +1,11 @@
 ---
 applications:
- - name: GetStartedJava
-   random-route: true
-   path: target/GetStartedJava.war
-   memory: 512M
+ - name: WasLibertyDeploy-1
+   host: WasLibertyDeploy-1
+   domain: mybluemix.net
    instances: 1
+   random-route: true
+   path: target/WasLibertyDeploy-1.war
+   memory: 512M
+   disk_quota: 1024M
+   
